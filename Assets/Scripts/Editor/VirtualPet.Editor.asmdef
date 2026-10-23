@@ -1,0 +1,24 @@
+{
+    "name": "VirtualPet.Editor",
+    "rootNamespace": "VirtualPet.EditorTools",
+    "references": [
+        "VirtualPet",
+        "VirtualPet.MiniGames.Sdk",
+        "VirtualPet.MiniGames.TapChallenge",
+        "Unity.Addressables",
+        "Unity.Addressables.Editor",
+        "Unity.ResourceManager",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

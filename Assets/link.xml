@@ -1,0 +1,16 @@
+<!-- Keeps mini-game logic that is only referenced from remote Addressables prefabs
+     (and the Addressables runtime itself) from being removed by IL2CPP code stripping. -->
+<linker>
+  <assembly fullname="VirtualPet" preserve="all" />
+  <assembly fullname="VirtualPet.MiniGames.Sdk" preserve="all" />
+  <assembly fullname="VirtualPet.MiniGames.TapChallenge" preserve="all" />
+  <assembly fullname="Unity.Addressables" preserve="all" />
+  <assembly fullname="Unity.ResourceManager" preserve="all" />
+  <!-- GameObject.CreatePrimitive adds these at runtime; engine stripping can't see that. -->
+  <assembly fullname="UnityEngine.PhysicsModule">
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.MeshCollider" preserve="all" />
+  </assembly>
+</linker>

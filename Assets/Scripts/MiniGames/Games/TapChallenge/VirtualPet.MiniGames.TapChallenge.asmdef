@@ -1,0 +1,17 @@
+{
+    "name": "VirtualPet.MiniGames.TapChallenge",
+    "rootNamespace": "VirtualPet.MiniGames.TapChallenge",
+    "references": [
+        "VirtualPet.MiniGames.Sdk",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

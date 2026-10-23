@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9909d0e55cb484ba885476086b4cf35d, type: 3}
+  m_Name: AppConfig
+  m_EditorClassIdentifier: VirtualPet::VirtualPet.Core.AppConfig
+  startingCoins: 100
+  remoteContentBaseUrl: http://localhost:8000
+  checkForContentUpdatesOnLaunch: 1
+  miniGames:
+  - id: tap-challenge
+    displayName: Tap Challenge
+    description: Tap as fast as you can for 10 seconds. Every point is a coin!
+    contentKey: minigames/tap-challenge
+    coinsPerPoint: 1
+    maxCoinsPerSession: 200
+    badge: TAP
+    accentColor: {r: 1, g: 0.54, b: 0.3, a: 1}
+  feedVideos:
+  - title: 'Corestorm: Mecha Arena'
+    subtitle: Pilot a mech, win the arena.
+    url: https://assets.elseland.elser.ai/games/corestorm-mecha-arena/pv-6s.mp4
+    fallbackUrl: videos/corestorm-mecha-arena.mp4
+    miniGameId: tap-challenge
+  - title: Gothic Blast
+    subtitle: Blast through the haunted castle.
+    url: https://assets.elseland.elser.ai/games/gothic-blast/pv-video.mp4
+    fallbackUrl: videos/gothic-blast.mp4
+    miniGameId: tap-challenge
+  - title: Emoji Cube Match 3D
+    subtitle: Match the cubes before time runs out.
+    url: https://assets.elseland.elser.ai/games/emoji-cube-match-3d/emoji-cube-match-3d-9-16-5s.mp4
+    fallbackUrl: videos/emoji-cube-match-3d.mp4
+    miniGameId: tap-challenge
+  petPrefab: {fileID: 5877521234498942551, guid: 903e6652a282f4c3ba61d2aa3d06f362, type: 3}
+  groundMaterial: {fileID: 2100000, guid: 3f6b19a6dd8e64385b326072fe3c3323, type: 2}
+  petName: Mochi

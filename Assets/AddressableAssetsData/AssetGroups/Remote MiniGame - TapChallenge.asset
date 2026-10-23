@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Remote MiniGame - TapChallenge
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Remote MiniGame - TapChallenge
+  m_GUID: b7b475ff8d6dc48d3b42be0229971b58
+  m_SerializeEntries:
+  - m_GUID: 278e2ce2cc4c14b1da94460cdbabf833
+    m_Address: minigames/tap-challenge
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - minigame
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 35eeb9394a40d4fae8d1c909e98ffe83, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fdf057173ad0148469d530f41c42ed9e, type: 2}
+    - {fileID: 11400000, guid: 011e1bddf5d8a4c00b1ebb1ff0c565d6, type: 2}

@@ -1,0 +1,16 @@
+{
+    "name": "VirtualPet.MiniGames.Sdk",
+    "rootNamespace": "VirtualPet.MiniGames.Sdk",
+    "references": [
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
